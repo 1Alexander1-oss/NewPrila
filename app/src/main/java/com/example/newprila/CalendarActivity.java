@@ -20,6 +20,7 @@ public class CalendarActivity extends AppCompatActivity {
                 System.out.println(" ЫЫЫ " + date);
             }
         });
+        System.out.println("test push");
 
     }
 }
