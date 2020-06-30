@@ -8,8 +8,8 @@
 
     <CalendarView
         android:id="@+id/calendar"
-        android:layout_width="337dp"
-        android:layout_height="377dp"
+        android:layout_width="351dp"
+        android:layout_height="414dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

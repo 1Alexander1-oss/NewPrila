@@ -13,15 +13,35 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button buttonHealth = (Button) findViewById(R.id.buttonHealth);
+        Button buttonHealth = findViewById(R.id.buttonHealth);
         buttonHealth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CalendarActivity.class);
                 startActivity(intent);
+
             }
         });
-        Button buttonFood = (Button) findViewById(R.id.buttonFood);
-        Button buttonFinance = (Button) findViewById(R.id.buttonFinance);
+        Button buttonFood = findViewById(R.id.buttonFood);
+        buttonFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CalendarActivity.class);
+                startActivity(intent);
+
+            }
+
+        });
+        Button buttonFinance = findViewById(R.id.buttonFinance);
+        buttonFinance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CalendarActivity.class);
+                startActivity(intent);
+
+            }
+
+        });
+
     }
 }
